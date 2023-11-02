@@ -55,11 +55,13 @@ def get_response(intens_list,intents_json):
 
 print("Chatbot is working")
 
-while True:
+# while True:
+def getAnswer():
     message = input("")
     if message.lower() in ["quit", "exit"]:
-        break
+        pass
     ints = predict_class(message)
     # print(ints)
     res = get_response(ints, intents)
     print(res)
+    return res
