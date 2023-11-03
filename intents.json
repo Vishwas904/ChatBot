@@ -1,124 +1,124 @@
-{"intents": [
-    {
-        "tags": "greetings",
-        "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up", "how is it going?"],
-        "responses": ["Hello", "Hey", "What can I do for you?", "How may I help you", "Good to see you here!!!"]
-    },
-    {
-        "tags": "procurement",
-        "patterns": ["How does the procurement process work?", "Tell me about procurement", "Procurement procedures", "How to procure medicines?"],
-        "responses": ["The procurement process involves...", "Procurement is a crucial step in obtaining medical supplies.", "Procurement procedures vary based on the type of supplies needed."]
-    },
-    {
-        "tags": "storage",
-        "patterns": ["How are medicines stored?", "Storage of surgical goods", "Medical equipment storage", "Insecticide storage"],
-        "responses": ["Medicines are typically stored in controlled environments.", "Surgical goods should be stored in sterile conditions.", "Medical equipment requires proper storage to maintain functionality."]
-    },
-    {
-        "tags": "distribution",
-        "patterns": ["How is the distribution of medicines managed?", "Distribution of surgical goods", "Medical equipment distribution", "Insecticide distribution"],
-        "responses": ["The distribution of medicines involves supply chain management.", "Surgical goods are distributed based on demand.", "Medical equipment is distributed to healthcare institutions in need."]
-    },
-    {
-        "tags": "healthcare institutions",
-        "patterns": ["What are healthcare institutions?", "Types of healthcare institutions", "Government healthcare facilities"],
-        "responses": ["Healthcare institutions refer to hospitals, clinics, and other healthcare facilities.", "Government healthcare facilities play a critical role in public health services."]
-    },
-    {
-        "tags": "government of Gujarat",
-        "patterns": ["Tell me about the Government of Gujarat", "Government initiatives in healthcare", "Healthcare policies in Gujarat"],
-        "responses": ["The Government of Gujarat is responsible for healthcare initiatives and policies.", "Various healthcare policies are implemented to support healthcare institutions."]
-    },
-     {
-        "tags": "medicines",
-        "patterns": ["How can I request specific medicines?", "Medicine availability", "Prescription requirements for medicines"],
-        "responses": ["You can request specific medicines through the prescribed procedure.", "Medicine availability may vary based on demand.", "Prescriptions are typically required for certain medicines."]
-    },
-    {
-        "tags": "surgical goods",
-        "patterns": ["What types of surgical goods are available?", "Surgical equipment catalog", "Surgical goods quality standards"],
-        "responses": ["A variety of surgical goods are available, including instruments and supplies.", "You can access the surgical equipment catalog for details.", "Surgical goods meet quality standards for safety and effectiveness."]
-    },
-    {
-        "tags": "medical equipment",
-        "patterns": ["How to obtain medical equipment?", "Medical equipment specifications", "Maintenance of medical equipment"],
-        "responses": ["You can obtain medical equipment through the designated process.", "Medical equipment specifications are provided for reference.", "Proper maintenance is crucial to ensure the longevity of medical equipment."]
-    },
-    {
-        "tags": "insecticides",
-        "patterns": ["Insecticides for healthcare institutions", "Pest control for healthcare facilities", "Insecticide safety measures"],
-        "responses": ["Insecticides are supplied to healthcare institutions for pest control.", "Effective pest control is essential for healthcare facility hygiene.", "Safety measures must be followed when using insecticides."]
-    },
-    {
-        "tags": "procurement guidelines",
-        "patterns": ["What are the procurement guidelines?", "Steps for procurement", "Procurement documentation"],
-        "responses": ["Procurement guidelines outline the procedures for acquiring supplies.", "Steps for procurement include requisition, evaluation, and approval.", "Procurement documentation is essential to track and audit the process."]
-    },
-    {
-        "tags": "contact information",
-        "patterns": ["Contact information for inquiries", "Help with procurement and distribution", "Customer support for healthcare institutions"],
-        "responses": ["You can contact our helpline for inquiries and assistance.", "We provide support for procurement, storage, and distribution inquiries.", "Our customer support team is here to help healthcare institutions."]
-    },
-    {
-        "tags": "supply chain",
-        "patterns": ["Explain the healthcare supply chain", "Efficient supply chain management", "Supply chain challenges"],
-        "responses": ["The healthcare supply chain involves the flow of goods from suppliers to healthcare institutions.", "Efficient supply chain management ensures timely delivery of medical supplies.", "Supply chain challenges may include demand forecasting and logistics."]
-    },
-    {
-        "tags": "inventory management",
-        "patterns": ["Inventory control for medicines", "Surgical goods inventory tracking", "Medical equipment inventory best practices"],
-        "responses": ["Effective inventory management is critical for ensuring medicine availability.", "Surgical goods inventory should be tracked to prevent shortages.", "Best practices for medical equipment inventory include regular audits and updates."]
-    },
-    {
-        "tags": "regulations",
-        "patterns": ["Healthcare procurement regulations", "Regulatory compliance for medicine procurement", "Insecticide usage regulations"],
-        "responses": ["Healthcare procurement is subject to specific regulations and guidelines.", "Regulatory compliance is essential when procuring medicines.", "Insecticide usage must adhere to safety and environmental regulations."]
-    },
-    {
-        "tags": "policies",
-        "patterns": ["Government healthcare procurement policies", "Quality assurance policies", "Healthcare distribution policies"],
-        "responses": ["Government healthcare procurement policies guide the acquisition of supplies.", "Quality assurance policies ensure the quality of medical products.", "Healthcare distribution policies help in equitable supply to healthcare institutions."]
-    },
-    {
-        "tags": "budgeting",
-        "patterns": ["Budgeting for healthcare supplies", "Financial planning for procurement", "Cost-effective supply strategies"],
-        "responses": ["Budgeting is crucial for managing healthcare supply costs.", "Financial planning helps in allocating resources for procurement.", "Cost-effective supply strategies aim to optimize resource utilization."]
-    },
-    {
-        "tags": "emergency response",
-        "patterns": ["Emergency medicine procurement", "Disaster response supplies", "Rapid procurement during crises"],
-        "responses": ["Emergency medicine procurement is accelerated during crises.", "Disaster response supplies are essential for addressing emergencies.", "Rapid procurement measures are in place to ensure swift response during crises."]
-    },
-    {
-        "tags": "vendor registration",
-        "patterns": ["How to register as a vendor?", "Vendor application process", "Vendor eligibility criteria"],
-        "responses": ["Vendor registration involves submitting an application with required documentation.", "The application process includes eligibility verification.", "To become a vendor, you must meet specific criteria set by the government."]
-    },
-    {
-        "tags": "quality control",
-        "patterns": ["Quality control for medical supplies", "Ensuring quality of medicines", "Quality assurance for surgical goods"],
-        "responses": ["Quality control measures are in place to maintain the quality of medical supplies.", "Stringent quality standards are followed to ensure the efficacy of medicines.", "Surgical goods go through quality assurance processes to meet safety standards."]
-    },
-    {
-        "tags": "reporting issues",
-        "patterns": ["How to report supply issues?", "Reporting defective medical equipment", "Supply chain disruptions"],
-        "responses": ["You can report supply issues through our designated channels.", "Defective medical equipment should be reported immediately for replacement.", "Supply chain disruptions are addressed with contingency plans."]
-    },
-    {
-        "tags": "delivery schedule",
-        "patterns": ["Medical supply delivery schedule", "Surgical goods delivery timeline", "Expected delivery time for equipment"],
-        "responses": ["The delivery schedule varies based on the location and demand for medical supplies.", "Surgical goods are typically delivered within the specified timeline.", "The expected delivery time for equipment depends on the type of equipment and location."]
-    },
-    {
-        "tags": "complaints",
-        "patterns": ["How to file a complaint?", "Complaint resolution process", "Addressing grievances"],
-        "responses": ["You can file a complaint through our complaint resolution system.", "Complaints are processed according to the established procedure.", "We are committed to addressing grievances promptly and fairly."]
-    },
-    {
-        "tags": "feedback",
-        "patterns": ["Providing feedback on services", "Feedback submission process", "Improvement based on user feedback"],
-        "responses": ["We encourage users to provide feedback on our services.", "The feedback submission process is designed to capture user input.", "User feedback is invaluable for continuous improvement."]
-    }
-    
-]}
-
+{
+    "intents": [
+        {
+            "tags": "greetings",
+            "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up", "how is it going?"],
+            "response": "Hello, how can I assist you today?"
+        },
+        {
+            "tags": "procurement",
+            "patterns": ["How does the procurement process work?", "Tell me about procurement", "Procurement procedures", "How to procure medicines?"],
+            "response": "The procurement process involves a series of steps, including requisition, evaluation, and approval. It may vary based on the type of supplies needed."
+        },
+        {
+            "tags": "storage",
+            "patterns": ["How are medicines stored?", "Storage of surgical goods", "Medical equipment storage", "Insecticide storage"],
+            "response": "Medicines are typically stored in controlled environments. Surgical goods and medical equipment also require proper storage to maintain functionality."
+        },
+        {
+            "tags": "distribution",
+            "patterns": ["How is the distribution of medicines managed?", "Distribution of surgical goods", "Medical equipment distribution", "Insecticide distribution"],
+            "response": "The distribution of medicines involves supply chain management. Surgical goods and medical equipment are distributed based on demand."
+        },
+        {
+            "tags": "healthcare institutions",
+            "patterns": ["What are healthcare institutions?", "Types of healthcare institutions", "Government healthcare facilities"],
+            "response": "Healthcare institutions refer to hospitals, clinics, and other healthcare facilities. Government healthcare facilities play a critical role in public health services."
+        },
+        {
+            "tags": "government of Gujarat",
+            "patterns": ["Tell me about the Government of Gujarat", "Government initiatives in healthcare", "Healthcare policies in Gujarat"],
+            "response": "The Government of Gujarat is responsible for healthcare initiatives and policies. Various healthcare policies are implemented to support healthcare institutions."
+        },
+        {
+            "tags": "medicines",
+            "patterns": ["How can I request specific medicines?", "Medicine availability", "Prescription requirements for medicines"],
+            "response": "You can request specific medicines through the prescribed procedure. Medicine availability may vary based on demand, and prescriptions are typically required for certain medicines."
+        },
+        {
+            "tags": "surgical goods",
+            "patterns": ["What types of surgical goods are available?", "Surgical equipment catalog", "Surgical goods quality standards"],
+            "response": "A variety of surgical goods are available, including instruments and supplies. You can access the surgical equipment catalog for details, and surgical goods meet quality standards for safety and effectiveness."
+        },
+        {
+            "tags": "medical equipment",
+            "patterns": ["How to obtain medical equipment?", "Medical equipment specifications", "Maintenance of medical equipment"],
+            "response": "You can obtain medical equipment through the designated process. Medical equipment specifications are provided for reference, and proper maintenance is crucial to ensure the longevity of medical equipment."
+        },
+        {
+            "tags": "insecticides",
+            "patterns": ["Insecticides for healthcare institutions", "Pest control for healthcare facilities", "Insecticide safety measures"],
+            "response": "Insecticides are supplied to healthcare institutions for pest control. Effective pest control is essential for healthcare facility hygiene, and safety measures must be followed when using insecticides."
+        },
+        {
+            "tags": "procurement guidelines",
+            "patterns": ["What are the procurement guidelines?", "Steps for procurement", "Procurement documentation"],
+            "response": "Procurement guidelines outline the procedures for acquiring supplies. Steps for procurement include requisition, evaluation, and approval. Procurement documentation is essential to track and audit the process."
+        },
+        {
+            "tags": "contact information",
+            "patterns": ["Contact information for inquiries", "Help with procurement and distribution", "Customer support for healthcare institutions"],
+            "response": "You can contact our helpline for inquiries and assistance. We provide support for procurement, storage, and distribution inquiries, and our customer support team is here to help healthcare institutions."
+        },
+        {
+            "tags": "supply chain",
+            "patterns": ["Explain the healthcare supply chain", "Efficient supply chain management", "Supply chain challenges"],
+            "response": "The healthcare supply chain involves the flow of goods from suppliers to healthcare institutions. Efficient supply chain management ensures timely delivery of medical supplies, and supply chain challenges may include demand forecasting and logistics."
+        },
+        {
+            "tags": "inventory management",
+            "patterns": ["Inventory control for medicines", "Surgical goods inventory tracking", "Medical equipment inventory best practices"],
+            "response": "Effective inventory management is critical for ensuring medicine availability. Surgical goods inventory should be tracked to prevent shortages, and best practices for medical equipment inventory include regular audits and updates."
+        },
+        {
+            "tags": "regulations",
+            "patterns": ["Healthcare procurement regulations", "Regulatory compliance for medicine procurement", "Insecticide usage regulations"],
+            "response": "Healthcare procurement is subject to specific regulations and guidelines. Regulatory compliance is essential when procuring medicines, and insecticide usage must adhere to safety and environmental regulations."
+        },
+        {
+            "tags": "policies",
+            "patterns": ["Government healthcare procurement policies", "Quality assurance policies", "Healthcare distribution policies"],
+            "response": "Government healthcare procurement policies guide the acquisition of supplies. Quality assurance policies ensure the quality of medical products, and healthcare distribution policies help in equitable supply to healthcare institutions."
+        },
+        {
+            "tags": "budgeting",
+            "patterns": ["Budgeting for healthcare supplies", "Financial planning for procurement", "Cost-effective supply strategies"],
+            "response": "Budgeting is crucial for managing healthcare supply costs. Financial planning helps in allocating resources for procurement, and cost-effective supply strategies aim to optimize resource utilization."
+        },
+        {
+            "tags": "emergency response",
+            "patterns": ["Emergency medicine procurement", "Disaster response supplies", "Rapid procurement during crises"],
+            "response": "Emergency medicine procurement is accelerated during crises. Disaster response supplies are essential for addressing emergencies, and rapid procurement measures are in place to ensure swift response during crises."
+        },
+        {
+            "tags": "vendor registration",
+            "patterns": ["How to register as a vendor?", "Vendor application process", "Vendor eligibility criteria"],
+            "response": "Vendor registration involves submitting an application with required documentation. The application process includes eligibility verification, and to become a vendor, you must meet specific criteria set by the government."
+        },
+        {
+            "tags": "quality control",
+            "patterns": ["Quality control for medical supplies", "Ensuring quality of medicines", "Quality assurance for surgical goods"],
+            "response": "Quality control measures are in place to maintain the quality of medical supplies. Stringent quality standards are followed to ensure the efficacy of medicines, and surgical goods go through quality assurance processes to meet safety standards."
+        },
+        {
+            "tags": "reporting issues",
+            "patterns": ["How to report supply issues?", "Reporting defective medical equipment", "Supply chain disruptions"],
+            "response": "You can report supply issues through our designated channels. Defective medical equipment should be reported immediately for replacement, and supply chain disruptions are addressed with contingency plans."
+        },
+        {
+            "tags": "delivery schedule",
+            "patterns": ["Medical supply delivery schedule", "Surgical goods delivery timeline", "Expected delivery time for equipment"],
+            "response": "The delivery schedule varies based on the location and demand for medical supplies. Surgical goods are typically delivered within the specified timeline, and the expected delivery time for equipment depends on the type of equipment and location."
+        },
+        {
+            "tags": "complaints",
+            "patterns": ["How to file a complaint?", "Complaint resolution process", "Addressing grievances"],
+            "response": "You can file a complaint through our complaint resolution system. Complaints are processed according to the established procedure, and we are committed to addressing grievances promptly and fairly."
+        },
+        {
+            "tags": "feedback",
+            "patterns": ["Providing feedback on services", "Feedback submission process", "Improvement based on user feedback"],
+            "response": "We encourage users to provide feedback on our services. The feedback submission process is designed to capture user input, and user feedback is invaluable for continuous improvement."
+        }
+    ]
+}
